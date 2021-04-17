@@ -36,7 +36,7 @@ The currently exposed parameters are:
 - **Pitch**: playback rate of the grains, with 1 corresponding to original pitch
 - **Amp**: amplitude of the grains, 0 to 1. (the maximum value is hardcoded to 0.8 to prevent overcrowding the audio bus with 32 voices)
 - **Velocity**: maximum value for the velocity of the grains (between 0.3 and 0.8)
-- **Size**: size ratio of the virutal room in which the listener is placed, from 1:1 up until 10:1. bigger sizes involve particles flying around at higher speed.
+- **Size**: size ratio of the virutal room in which the listener is placed, from 1:1 up until 10:1. Bigger sizes involve particles flying around at higher speed.
 
 ### Extra functions
 <p align="center">
@@ -46,3 +46,8 @@ The currently exposed parameters are:
 The two switches on the left control two more functionalities, **Doppler** and **Gravity**.
 When **Doppler** is active, a doppler effect simulation is applied to all particles, making the pitch of the corresponding sound grain be affected by its movement speed.
 When **Gravity** is active, a small circle appears on the visualization window on the right. By clicking on the window it is possible to define a gravitational point around which the particles will start swarming.
+
+## Mapping
+
+Currently the mapping between parameters is hardcoded. The current mapping includes:
+- Grain duration -> Separation Threshold
