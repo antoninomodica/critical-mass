@@ -29,4 +29,4 @@ The currently exposed parameters are:
 - **Pitch**: playback rate of the grains, with 1 corresponding to original pitch
 - **Amp**: amplitude of the grains, 0 to 1. (the maximum value is hardcoded to 0.8 to prevent overcrowding the audio bus with 32 voices)
 - **Velocity**: maximum value for the velocity of the grains (between 0.3 and 0.8)
-- **Size**: size of the 
+- **Size**: size ratio of the virutal room in which the listener is placed, from 1:1 up until 10:1. bigger sizes involve particles flying around at higher speed.
