@@ -12,8 +12,10 @@ In the top section of the main view it is possible to pick a folder containing t
 
 ![file_selection](https://user-images.githubusercontent.com/30500998/115115647-dc4e6200-9f95-11eb-8548-088af402eef6.png)
 
+
 Once the desired file is selected, both the **sound** and the **flocking** engines can be started via the dedicated switches. As soon as the flocking switch is turned on, the window on the right is automatically populated with 32 particles flying around.
 
 ![control_switches](https://user-images.githubusercontent.com/30500998/115115704-16b7ff00-9f96-11eb-96d3-ffaf5294e12a.png)
+
 
 The control area contains the main parameters of the synthesizer
