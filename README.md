@@ -25,4 +25,8 @@ The control area contains the main parameters of the synthesizer and swarm. Most
 
 The currently exposed parameters are:
 
-- Duration: defines the length of each single grain
+- **Duration**: length of the grains, in milliseconds
+- **Pitch**: playback rate of the grains, with 1 corresponding to original pitch
+- **Amp**: amplitude of the grains, 0 to 1. (the maximum value is hardcoded to 0.8 to prevent overcrowding the audio bus with 32 voices)
+- **Velocity**: maximum value for the velocity of the grains (between 0.3 and 0.8)
+- **Size**: size of the 
