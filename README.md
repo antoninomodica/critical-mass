@@ -9,5 +9,4 @@ CriticalMass is a surround granular synthesizer based on the Boids flocking algo
 
 ## Usage
 
-
-![main_interface_startup](https://user-images.githubusercontent.com/30500998/115115458-dd32c400-9f94-11eb-9aa5-1afd8cb6e399.png)
+![main_view_startup](https://user-images.githubusercontent.com/30500998/115115490-fd628300-9f94-11eb-9c54-f0fd911f52b7.png)
