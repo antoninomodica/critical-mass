@@ -8,8 +8,9 @@ CriticalMass is a surround granular synthesizer based on the Boids flocking algo
 - external objects library **spat** by IRCAM. Download https://forum.ircam.fr/projects/detail/spat/
 
 ## Usage
-### File Selection
+### File Selection and Presets
 In the top section of the main view it is possible to pick a folder containing the samples to be used in the synth. When a file is selected via the dropdown menu, its waveform is visualized right underneath it. By highlighting a slice of the waveform it is possible to choose which section of the file is going to be used for the sound generation.
+Moreover, by shift-clicking on one of the small square boxes on the right the current state of the software is saved to a preset, which can be recalled by clicking on the corresponding number.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/30500998/115115647-dc4e6200-9f95-11eb-8548-088af402eef6.png" alt="file_selection"/>
