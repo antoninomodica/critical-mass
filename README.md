@@ -44,4 +44,4 @@ The currently exposed parameters are:
 
 The two switches on the left control two more functionalities, **Doppler** and **Gravity**.
 When **Doppler** is active, a doppler effect simulation is applied to all particles, making the pitch of the corresponding sound grain be affected by its movement speed.
-When **Gravity** is active, a small circle appears on the visualization window on the right. By clicking on the window it is possible to define a gravitational point around which the particles will start swarming
+When **Gravity** is active, a small circle appears on the visualization window on the right. By clicking on the window it is possible to define a gravitational point around which the particles will start swarming.
