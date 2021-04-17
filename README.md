@@ -1,7 +1,7 @@
 # critical-mass
 
 ## About
-CriticalMass is a surround granular synthesizer based on the Boids flocking algorithm originally developed by Craig Reynolds. The audio engine is implemented in the visual programming language Max/MSP, while swarming functionalities are based on JavaScript. The aim of the project is the tight integration between the characteristics of the particle swarm and the parameters of the granular synth, creating a responsive musical instrument.
+CriticalMass is a surround granular synthesizer based on the Boids flocking algorithm originally developed by Craig Reynolds. The audio engine is implemented in the visual programming language Max/MSP, while swarming functionalities are based on JavaScript. Every grain of sound is represented by a sound particle moving in space; the 32 voices of the synthesizer together create an organic cloud of particles. The aim of the project is the tight integration between the characteristics of the particle swarm and the parameters of the granular synth, creating a responsive musical instrument.
 
 ## Dependencies
 - full installation of Max 8. Download from https://cycling74.com/downloads
@@ -16,7 +16,13 @@ In the top section of the main view it is possible to pick a folder containing t
 ### Engines
 Once the desired file is selected, both the **sound** and the **flocking** engines can be started via the dedicated switches. As soon as the flocking switch is turned on, the window on the right is automatically populated with 32 particles flying around.
 
-![control_switches](https://user-images.githubusercontent.com/30500998/115115704-16b7ff00-9f96-11eb-96d3-ffaf5294e12a.png) <br/>
+![engines_switches](https://user-images.githubusercontent.com/30500998/115115704-16b7ff00-9f96-11eb-96d3-ffaf5294e12a.png) <br/>
 
 ### Control
-The control area contains the main parameters of the synthesizer
+The control area contains the main parameters of the synthesizer and swarm. Most of the controls exposed to the user are related to the parameters of the sound engine. All of the parameters have a center value and a randomness value expressed in %. By changing the randomness amount the corresponding value will randomly oscillate around the chosen center value with the desired variance.
+
+![control_window](https://user-images.githubusercontent.com/30500998/115116020-cb065500-9f97-11eb-8b86-e72a3ee04528.png)
+
+The currently exposed parameters are:
+
+- Duration: defines the length of each single grain
