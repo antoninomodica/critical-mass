@@ -50,5 +50,5 @@ When **Gravity** is active, a small circle appears on the visualization window o
 ## Mapping
 
 Currently the mapping between parameters is hardcoded. The idea is to keep the mappings relatively hidden to the end user, with the aim of creating organic and responsive behaviors. The current mapping includes:
-- Grain duration -> Separation Threshold
+- Grain duration -> Separation Threshold <br/>
   Longer sound grains will influence the flocking algorithm by increasing the minimum distance between the particles. This means that when longer sounds are generated they are more far apart from each other, leaving more space.
