@@ -8,6 +8,9 @@ Critical Mass is a surround granular synthesizer based on the Boids flocking alg
 - external objects library **spat** by IRCAM. Download https://forum.ircam.fr/projects/detail/spat/
 
 ## Usage
+### Starting the software
+After installing the latest version of Max and Spat, double click on the desired version of the synthesizer (either the binaural or 8-channel variant).
+
 ### File Selection and Presets
 Files can be selected either via the "Select folder" button and dropdown menu combination, or by dragging and dropping. By highlighting a slice of the waveform it is possible to choose which section of the file is going to be used for the sound generation.
 
