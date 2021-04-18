@@ -7117,8 +7117,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.578947782516479, 846.0, 171.0, 25.0 ],
-					"text" : "scale 0 9999 0. 1."
+					"patching_rect" : [ 15.578947782516479, 846.0, 154.0, 25.0 ],
+					"text" : "scale 0 9999 125. 125."
 				}
 
 			}
