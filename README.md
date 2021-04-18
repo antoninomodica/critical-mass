@@ -1,7 +1,7 @@
 # critical-mass
 
 ## About
-CriticalMass is a surround granular synthesizer based on the Boids flocking algorithm originally developed by Craig Reynolds. The audio engine is implemented in the visual programming language Max/MSP, while swarming functionalities are based on JavaScript. Every grain of sound is represented by a sound particle moving in space; the 32 voices of the synthesizer together create an organic cloud of particles. The aim of the project is the tight integration between the characteristics of the particle swarm and the parameters of the granular synth, creating a responsive musical instrument.
+Critical Mass is a surround granular synthesizer based on the Boids flocking algorithm originally developed by Craig Reynolds. The audio engine is implemented in the visual programming language Max/MSP, while swarming functionalities are based on JavaScript. Every grain of sound is represented by a sound particle moving in space; the 32 voices of the synthesizer together create an organic cloud of particles. The aim of the project is the tight integration between the characteristics of the particle swarm and the parameters of the granular synth, creating a responsive musical instrument.
 
 ## Dependencies
 - full installation of Max 8. Download from https://cycling74.com/downloads
@@ -9,11 +9,10 @@ CriticalMass is a surround granular synthesizer based on the Boids flocking algo
 
 ## Usage
 ### File Selection and Presets
-In the top section of the main view it is possible to pick a folder containing the samples to be used in the synth. When a file is selected via the dropdown menu, its waveform is visualized right underneath it. By highlighting a slice of the waveform it is possible to choose which section of the file is going to be used for the sound generation.
-Moreover, by shift-clicking on one of the small square boxes on the right the current state of the software is saved to a preset, which can be recalled simply by clicking on it.
+Files can be selected either via the "Select folder" button and dropdown menu combination, or by dragging and dropping. By highlighting a slice of the waveform it is possible to choose which section of the file is going to be used for the sound generation.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/30500998/115115647-dc4e6200-9f95-11eb-8548-088af402eef6.png" alt="file_selection"/>
+  <img src="https://user-images.githubusercontent.com/30500998/115150374-518a6780-a068-11eb-84ad-ce08fedc87f2.png" alt="file_selection"/>
 </p>
 
 ### Engines
