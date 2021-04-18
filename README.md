@@ -19,13 +19,13 @@ Files can be selected either via the "Select folder" button and dropdown menu co
 </p>
 
 ### Engines
-Once the desired file is selected, both the **sound** and the **flocking** engines can be started via the dedicated switches. As soon as the flocking switch is turned on, the window on the right is automatically populated with 32 particles flying around.
+Once the desired file is selected, both the **synth** and the **flocking** engines can be started via the dedicated switches. As soon as the flocking switch is turned on, the window on the right is automatically populated with 32 particles flying around.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/30500998/115150469-d4abbd80-a068-11eb-805e-4d044b723049.png" alt="engine_switches"/>
 </p>
 
-From here, the **Doppler** and **Gravity** functionalities can be activated.
+From here, the **Doppler** and **Gravity** functionalities can also be activated.
 When **Doppler** is active, a doppler effect simulation is applied to all particles, making the pitch of the corresponding sound grain be affected by its movement speed.
 When **Gravity** is active, a small circle appears on the visualization window on the right. By clicking on the window it is possible to define a gravitational point around which the particles will start swarming.
 
@@ -34,8 +34,9 @@ When **Gravity** is active, a small circle appears on the visualization window o
 The control area contains the main parameters of the synthesizer and swarm. Most of the controls exposed to the user are related to the parameters of the sound engine. All of the parameters have a center value and a randomness value expressed in %. By changing the randomness amount the corresponding value will randomly oscillate around the chosen center value with the desired variance.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/30500998/115116020-cb065500-9f97-11eb-8b86-e72a3ee04528.png" alt="control_window"/>
+  <img src="https://user-images.githubusercontent.com/30500998/115150540-218f9400-a069-11eb-83db-7c4d2bc82ff8.png" alt="control_window"/>
 </p>
+
 
 The currently exposed parameters are:
 
