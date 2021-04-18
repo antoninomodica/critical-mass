@@ -22,8 +22,9 @@ Files can be selected either via the "Select folder" button and dropdown menu co
 Once the desired file is selected, both the **sound** and the **flocking** engines can be started via the dedicated switches. As soon as the flocking switch is turned on, the window on the right is automatically populated with 32 particles flying around.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/30500998/115115704-16b7ff00-9f96-11eb-96d3-ffaf5294e12a.png" alt="engine_switches"/>
+  <img src="https://user-images.githubusercontent.com/30500998/115150469-d4abbd80-a068-11eb-805e-4d044b723049.png" alt="engine_switches"/>
 </p>
+
 
 
 ### Control
