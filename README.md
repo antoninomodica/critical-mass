@@ -25,6 +25,9 @@ Once the desired file is selected, both the **sound** and the **flocking** engin
   <img src="https://user-images.githubusercontent.com/30500998/115150469-d4abbd80-a068-11eb-805e-4d044b723049.png" alt="engine_switches"/>
 </p>
 
+From here, the **Doppler** and **Gravity** functionalities can be activated.
+When **Doppler** is active, a doppler effect simulation is applied to all particles, making the pitch of the corresponding sound grain be affected by its movement speed.
+When **Gravity** is active, a small circle appears on the visualization window on the right. By clicking on the window it is possible to define a gravitational point around which the particles will start swarming.
 
 
 ### Control
@@ -42,14 +45,6 @@ The currently exposed parameters are:
 - **Velocity**: maximum value for the velocity of the grains (between 0.3 and 0.8)
 - **Size**: size ratio of the virutal room in which the listener is placed, from 1:1 up until 10:1. Bigger sizes involve particles flying around at higher speed.
 
-### Extra functions
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/30500998/115116663-179f5f80-9f9b-11eb-8154-c3910a00cb35.png" alt="extra_functions"/>
-</p>
-
-The two switches on the left control two more functionalities, **Doppler** and **Gravity**.
-When **Doppler** is active, a doppler effect simulation is applied to all particles, making the pitch of the corresponding sound grain be affected by its movement speed.
-When **Gravity** is active, a small circle appears on the visualization window on the right. By clicking on the window it is possible to define a gravitational point around which the particles will start swarming.
 
 ## Mapping
 
