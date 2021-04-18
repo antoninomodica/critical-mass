@@ -54,3 +54,5 @@ Currently the mapping between parameters is hardcoded. The idea is to keep the m
   Longer sound grains will influence the flocking algorithm by increasing the minimum distance between the particles. This means that when longer sounds are generated they are also further apart from each other, leaving more space for sound to exist in space.
 - Velocity -> Inertia <br/>
   When the particles are moving at faster velocity, their inertia is also reduced, making them stick together more easily. In this way it is possible, with just one control, to smoothly transition between a localized mass of sound to a more evenly distributed particle arrangement.
+  
+  
